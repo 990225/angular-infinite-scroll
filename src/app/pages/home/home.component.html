@@ -1,0 +1,8 @@
+<div infinite-scroll (scrolled)="addItems()" class="wrap">
+  <div class="container" *ngFor="let item of items">
+    <div class="content">
+      <div class="background"></div>
+      <p class="text">{{ item + 1 }}</p>
+    </div>
+  </div>
+</div>
